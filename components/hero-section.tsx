@@ -19,7 +19,7 @@ export function HeroSection() {
               <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-2xl bg-gradient-to-br from-primary to-accent p-1 glow-effect">
                 <div className="w-full h-full rounded-2xl bg-background flex items-center justify-center">
                   <img
-                    src="/Ot.png"
+                    src="/Image.png"
                     alt="Otoabasi Joseph Bassey"
                     className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-xl object-cover"
                   />

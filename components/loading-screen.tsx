@@ -23,7 +23,7 @@ export function LoadingScreen() {
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center">
             <div className="w-16 h-16 rounded-full bg-card border-4 border-accent/30 flex items-center justify-center">
               <img
-                src="/Ot.png"
+                src="/Image.png"
                 alt="Otoabasi Joseph Bassey"
                 className="w-12 h-12 rounded-full object-cover"
               />
