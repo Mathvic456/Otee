@@ -1,6 +1,6 @@
 export function StatsSection() {
   const stats = [
-    { number: "50+", label: "Successful Projects", description: "Brand campaigns delivered" },
+    { number: "100+", label: "Successful Projects", description: "Brand campaigns delivered" },
     { number: "10K+", label: "Community Members", description: "Built across platforms" },
     { number: "4x", label: "Growth Achieved", description: "Average ROI increase" },
     { number: "5+", label: "Years Experience", description: "In brand marketing" },
