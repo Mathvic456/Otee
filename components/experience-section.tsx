@@ -3,84 +3,149 @@ import { Calendar, MapPin } from "lucide-react"
 
 export function ExperienceSection() {
   const experiences = [
-    {
-      title: "Head of Marketing/Brand Partnerships",
-      company: "Vibes Barn",
-      location: "Remote, Uyo, Akwa Ibom State",
-      period: "01/2024 - Present",
-      description:
-        "Managed partnerships with brands across Fashion, Technology, fintech, Wines and spirits for brand marketing and promotions. Monitored KPI achievement and led content creation for marketing campaigns.",
-      achievements: [
-        "Setup and Brokered a global whiskey influencer partnership (Teeling Whiskey)",
-        "Built online community to over 10,000 members within one year",
-        "Achieved steady 5,000+ attendees per episode",
-      ],
-    },
-    {
-      title: "Executive Officer",
-      company: "RAD Digital",
-      location: "Remote, Uyo, Akwa Ibom State",
-      period: "09/2020 - 08/2024",
-      description:
-        "Led brand development, talent acquisition, and music investment initiatives. Directed content creation, distribution strategies, and partnerships for music brands.",
-      achievements: [
-        "Spearheaded comprehensive brand development strategies",
-        "Managed talent acquisition and investment portfolios",
-        "Developed strategic partnerships across multiple sectors",
-      ],
-    },
-    {
-      title: "Product Manager",
-      company: "Clique Africa",
-      location: "Remote, Nigeria",
-      period: "02/2024 - 07/2024",
-      description:
-        "Analyzed product objectives and market research to assess strategies. Developed product documents outlining development roadmap, rollout, and marketing strategy.",
-      achievements: [
-        "Assembled and led team of web developers and designers",
-        "Built entertainment/creative website for GenZ and Millennial audiences",
-        "Collaborated with independent creatives for content generation",
-      ],
-    },
-    {
-      title: "Chief Marketing Officer",
-      company: "Yield 24 (DeFi)",
-      location: "Remote, Akwa Ibom State",
-      period: "12/2023 - 03/2024",
-      description:
-        "Led the development and execution of marketing strategy, contributing to successful product launch. Expanded product roadmaps and prioritized features based on customer feedback.",
-      achievements: [
-        "Achieved 4x increase in pre-sale value",
-        "Hosted daily Twitter spaces and Telegram AMA sessions",
-        "Negotiated listing partnerships and managed community engagement",
-      ],
-    },
-    {
-      title: "Director Content Investment (Africa)",
-      company: "Wahoo Music",
-      location: "Remote, Nigeria",
-      period: "09/2022 - 02/2024",
-      description:
-        "Oversaw music content investment, artist acquisition, and management. Spearheaded distribution, publishing strategies, and brand development for African artists.",
-      achievements: [
-        "Managed content investment across Nigeria, Ghana, and Kenya",
-        "Developed distribution and publishing strategies",
-        "Led brand development for emerging African artists",
-      ],
-    },
-    {
-      title: "Radio Host",
-      company: "Atlantic FM",
-      location: "Akwa Ibom State",
-      period: "09/2015 - 11/2022",
-      description: "Created and hosted radio content and podcasts. Conducted interviews and managed radio programming.",
-      achievements: [
-        "Developed engaging radio content and programming",
-        "Conducted high-profile interviews",
-        "Built strong listener engagement and community",
-      ],
-    },
-  ]
+  {
+    title: "Product Manager/Marketing Consultant",
+    company: "LeruPay",
+    location: "Remote",
+    period: "02/2025 - Present",
+    description:
+      "Created content for strategic PR campaigns. Provided copywriting and strategic planning for brands. Led brand partnerships and investment documentation and strategies.",
+    achievements: [
+      "Developed and distributed PR campaigns to boost product visibility",
+      "Provided copywriting and strategic brand planning",
+      "Led brand partnerships and created investment documentation/strategies",
+    ],
+  },
+  {
+    title: "Head of Marketing/Brand Partnerships",
+    company: "Vibes Barn",
+    location: "Remote, Uyo, Akwa Ibom State",
+    period: "01/2024 - Present",
+    description:
+      "Managed partnerships with brands across Fashion, Technology, fintech, Wines and spirits for brand marketing and promotions. Monitored KPI achievement and led content creation for marketing campaigns.",
+    achievements: [
+      "Setup and Brokered a global whiskey influencer partnership (Teeling Whiskey)",
+      "Built online community to over 10,000 members within one year",
+      "Achieved steady 5,000+ attendees per episode",
+    ],
+  },
+  {
+    title: "Product Manager",
+    company: "Clique Africa",
+    location: "Remote, Nigeria",
+    period: "02/2024 - 07/2024",
+    description:
+      "Analyzed product objectives and market research to assess strategies. Developed product documents outlining development roadmap, rollout, and marketing strategy.",
+    achievements: [
+      "Assembled and led team of web developers and designers",
+      "Built entertainment/creative website for GenZ and Millennial audiences",
+      "Collaborated with independent creatives for content generation",
+    ],
+  },
+  {
+    title: "Chief Marketing Officer",
+    company: "Yield 24 (DeFi)",
+    location: "Remote, Akwa Ibom State",
+    period: "12/2023 - 03/2024",
+    description:
+      "Led the development and execution of marketing strategy, contributing to successful product launch. Expanded product roadmaps and prioritized features based on customer feedback.",
+    achievements: [
+      "Achieved 4x increase in pre-sale value",
+      "Hosted daily Twitter spaces and Telegram AMA sessions",
+      "Negotiated listing partnerships and managed community engagement",
+    ],
+  },
+  {
+    title: "Director Content Investment (Africa)",
+    company: "Wahoo Music",
+    location: "Remote, Nigeria",
+    period: "09/2022 - 02/2024",
+    description:
+      "Oversaw music content investment, artist acquisition, and management. Spearheaded distribution, publishing strategies, and brand development for African artists.",
+    achievements: [
+      "Managed content investment across Nigeria, Ghana, and Kenya",
+      "Developed distribution and publishing strategies",
+      "Led brand development for emerging African artists",
+    ],
+  },
+  {
+    title: "Executive Officer",
+    company: "RAD Digital",
+    location: "Remote, Uyo, Akwa Ibom State",
+    period: "09/2020 - 08/2024",
+    description:
+      "Led brand development, talent acquisition, and music investment initiatives. Directed content creation, distribution strategies, and partnerships for music brands.",
+    achievements: [
+      "Spearheaded comprehensive brand development strategies",
+      "Managed talent acquisition and investment portfolios",
+      "Developed strategic partnerships across multiple sectors",
+    ],
+  },
+  {
+    title: "PR Consultant",
+    company: "606 Agency",
+    location: "Remote, Lagos",
+    period: "01/2021 - 12/2022",
+    description:
+      "Created and distributed content for strategic PR campaigns. Provided copywriting and strategic planning for client brands.",
+    achievements: [
+      "Developed and executed PR campaigns across multiple industries",
+      "Provided strategic planning and copywriting for client brands",
+    ],
+  },
+  {
+    title: "Community Manager & Project Manager",
+    company: "GummybearNFTs, Cube Network, Enevti",
+    location: "Remote, Lagos",
+    period: "03/2022 - 09/2022",
+    description:
+      "Managed community engagement and content creation for multiple blockchain projects. Coordinated social influencer campaigns and moderated project execution.",
+    achievements: [
+      "Led online community growth and engagement strategies",
+      "Executed influencer-led campaigns for blockchain projects",
+      "Coordinated project deliverables with cross-functional teams",
+    ],
+  },
+  {
+    title: "Manager",
+    company: "AOMG Records",
+    location: "Lagos",
+    period: "08/2020 - 07/2022",
+    description:
+      "Managed talent acquisition and brand development. Directed partnership acquisitions and content creation.",
+    achievements: [
+      "Oversaw recruitment and development of music talents",
+      "Directed acquisition of brand and partnership deals",
+      "Supervised content creation and release strategies",
+    ],
+  },
+  {
+    title: "Head of Partnerships",
+    company: "WeSocial.ng",
+    location: "Remote, Uyo, Akwa Ibom State",
+    period: "09/2016 - 11/2020",
+    description:
+      "Managed partnerships with influencers for brand marketing and promotions. Monitored KPI achievement and led content creation for marketing campaigns.",
+    achievements: [
+      "Built and maintained influencer partnerships for campaigns",
+      "Monitored KPI performance to optimize campaign strategies",
+      "Directed creative content development for marketing",
+    ],
+  },
+  {
+    title: "Radio Host",
+    company: "Atlantic FM",
+    location: "Akwa Ibom State",
+    period: "09/2015 - 11/2022",
+    description:
+      "Created and hosted radio content and podcasts. Conducted interviews and managed radio programming.",
+    achievements: [
+      "Developed engaging radio content and programming",
+      "Conducted high-profile interviews",
+      "Built strong listener engagement and community",
+    ],
+  },
+];
 
   return (
     <section id="experience" className="py-20 bg-background">
